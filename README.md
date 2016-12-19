@@ -1,13 +1,13 @@
 # spring-minimal
 
 ## local test with h2
--profiles localH2,devtools
+vn spring-boot:run -Drun.profiles=localH2,devtools
 
 ## cf
 
 
-
 mvn package -Pdevelopment -DskipTests
+
 cf push myapp -p targets/myapp...jar -b java_buildpack
 
 bind  db service
