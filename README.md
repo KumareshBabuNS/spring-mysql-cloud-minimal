@@ -1,7 +1,7 @@
 # spring-minimal
 
 ## local test with h2
-vn spring-boot:run -Drun.profiles=localH2,devtools
+mvn spring-boot:run -Drun.profiles=localH2,devtools
 
 ## cf
 
